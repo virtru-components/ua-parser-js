@@ -865,4 +865,4 @@
         };
     }
 
-})(window || this);
+})(typeof window !== 'undefined' ? window : this);
